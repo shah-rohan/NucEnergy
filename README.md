@@ -12,7 +12,9 @@ Usage instructions: `NucEnergy -i [input file] -o [output file] -w [window size 
 
 Default values (in parentheses) are taken from the default optimal values in van der Heijden et al.
 
-The input file should be a tab delimited file with the following fields: `chr start stop DNA_sequence'.
+The input file should be a tab delimited file with the following fields: `chr start stop DNA_sequence`.
+
+The output file is a tab delimited file with the following fields: `chr start stop Energy(kT)`.
 
 ## Acknowledgements and Contact
 
