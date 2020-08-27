@@ -12,6 +12,8 @@ Usage instructions: `NucEnergy -i [input file] -o [output file] -w [window size 
 
 Default values (in parentheses) are taken from the default optimal values in van der Heijden et al.
 
+The input file should be a tab delimited file with the following fields: `chr start stop DNA_sequence'.
+
 ## Acknowledgements and Contact
 
 This algorithm was originally published and written in Python by [van der Heijden et al.](https://www.pnas.org/content/109/38/E2514/1). It was ported to C++ with minor bug fixes by Rohan Shah (rohanshah@uchicago.edu).
